@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "IntuneLAPS/1.0.0": {
+        "runtime": {
+          "IntuneLAPS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IntuneLAPS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
