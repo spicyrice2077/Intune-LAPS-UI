@@ -1,16 +1,12 @@
 # Intune-LAPS-UI
 # Info
 
-This installer/app consists of two PowerShell scripts and two .exe files.
-
-- IntuneLAPS\Dependencies\IntuneLAPSDependencies.exe runs the following script below.
-    - IntuneLAPS\Dependencies\scripts\IntuneLAPS_Dependencies.ps1
-- IntuneLAPS\IntuneLAPSapp\IntuneLAPS.exe runs the following script below.
-    - IntuneLAPS\IntuneLAPSapp\scripts\IntuneLAPS.ps1
+This app is a powershell wrapper that interacts with Microsoft Graph to grab the LAPS password of the intended device.
+- IntuneLAPS\IntuneLAPSapp\IntuneLAPS.exe runs the following script - IntuneLAPS\IntuneLAPSapp\scripts\IntuneLAPS.ps1
 
 ---
 
-# Install Process
+# Install Process (Manual)
 
 Start by opening the Dependencies folder:
 
@@ -18,6 +14,14 @@ Start by opening the Dependencies folder:
 - Click "Check Dependencies"
 - Wait patiently. Graph module takes some time to complete installation.
 
+---
+
+# Install Process (Auto)
+
+Start by opening the Dependencies folder:
+
+- Run Install.ps1
+  
 ---
 
 # Running the app
@@ -33,7 +37,6 @@ Start by opening the Dependencies folder:
 # Troubleshooting Issues
 
 The .exe files may fail to run the PowerShell scripts if they have the "mark of the web" security flag.
-
 - You can resolve this by opening PowerShell and entering the following command for **both** scripts: (You may need to adjust the path to reflect the actual location of the PowerShell scripts)
 
 ```powershell
