@@ -28,7 +28,6 @@ Start by opening the Dependencies folder:
     - You should see your account name in the app after logging in
 - Fill in the device name and click "Get Password"
 - You may get an additional browser prompt to login; simply login again as requested
-- Successful output will look something like this:
 ---
 
 # Troubleshooting Issues
