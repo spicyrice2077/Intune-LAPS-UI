@@ -2,7 +2,7 @@
 # Info
 
 This app is a powershell wrapper that interacts with Microsoft Graph to grab the LAPS password of the intended device.
-- IntuneLAPS\IntuneLAPSapp\IntuneLAPS.exe runs the following script - IntuneLAPS\IntuneLAPSapp\scripts\IntuneLAPS.ps1
+- IntuneLAPSapp\IntuneLAPS.exe runs the following script - IntuneLAPSapp\scripts\IntuneLAPS.ps1
   
 ![Alt text](https://github.com/spicyrice2077/Intune-LAPS-UI/blob/main/Preview.png)
 ---
