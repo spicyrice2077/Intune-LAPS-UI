@@ -29,7 +29,7 @@ Start by opening the Dependencies folder:
 
 - Run IntuneLAPS.exe
 - Click "Login"
-    - This will open a web browser where you should use your admin account email
+    - This will open a web browser where you should use your account that has Intune LAPS permissions.
     - You should see your account name in the app after logging in
 - Fill in the device name and click "Get Password"
 - You may get an additional browser prompt to login; simply login again as requested
